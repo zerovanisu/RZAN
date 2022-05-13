@@ -5,26 +5,16 @@ public class Character_Data : ScriptableObject
 {
     [SerializeField]
 
-    public string Name, Full_Name;
-
-    public string Weapon;
+    public string Name;
 
     public int Level,
-        
-        HP_Max,
-        
-        HP,
-        
-        Atc,
 
-        M_Atc,
-        
-        Defense,
-        
-        M_Defense,
-        
-        Speed;
+        Bust, Waist, Hip,
 
-    public string Skill, Spell;
+        Height, Weight,
+
+        HP_Max, HP, Atc, M_Atc, Defense, M_Defense, Speed;
+
+    //public string Skill, Spell;
 
 }
