@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94bd71800ce4c454da04c66a8beccbf8, type: 3}
   m_Name: Peridot_Data
   m_EditorClassIdentifier: 
+  Icon: {fileID: 1027895206, guid: f27a382d0e56d9b478f76aaedd1c1f38, type: 3}
+  Normal: {fileID: 1920841477, guid: f27a382d0e56d9b478f76aaedd1c1f38, type: 3}
   Name: "\u30DA\u30EA\u30C9\u30C3\u30C8"
   Level: 1
-  Bust: 0
-  Waist: 0
-  Hip: 0
-  Height: 0
-  Weight: 0
+  Bust: 1
+  Waist: 2
+  Hip: 3
+  Height: 4
+  Weight: 5
   HP_Max: 10
   HP: 10
   Atc: 3
@@ -26,5 +28,3 @@ MonoBehaviour:
   Defense: 1
   M_Defense: 2
   Speed: 1
-  Skill: 
-  Spell: 

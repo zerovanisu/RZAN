@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94bd71800ce4c454da04c66a8beccbf8, type: 3}
   m_Name: Sapphire_Data
   m_EditorClassIdentifier: 
+  Icon: {fileID: -484065985, guid: 52ba4f7455b2d3140a174338ad613db5, type: 3}
+  Normal: {fileID: -1604688446, guid: 52ba4f7455b2d3140a174338ad613db5, type: 3}
   Name: "\u30B5\u30D5\u30A1\u30A4\u30A2"
   Level: 1
-  Bust: 0
-  Waist: 0
-  Hip: 0
-  Height: 0
-  Weight: 0
+  Bust: 2
+  Waist: 3
+  Hip: 4
+  Height: 5
+  Weight: 1
   HP_Max: 8
   HP: 8
   Atc: 1
