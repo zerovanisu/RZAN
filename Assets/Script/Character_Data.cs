@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu]
 public class Character_Data : ScriptableObject
 {
     [SerializeField]
+
+    public Sprite Icon, Normal;
 
     public string Name;
 

@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94bd71800ce4c454da04c66a8beccbf8, type: 3}
   m_Name: Spinel_Data
   m_EditorClassIdentifier: 
+  Icon: {fileID: 1606336271, guid: 6fb0932d7c6f41b4ea445939a966f448, type: 3}
+  Normal: {fileID: 1478976160, guid: 6fb0932d7c6f41b4ea445939a966f448, type: 3}
   Name: "\u30B9\u30D4\u30CD\u30EB"
   Level: 1
-  Bust: 0
-  Waist: 0
-  Hip: 0
-  Height: 0
-  Weight: 0
+  Bust: 3
+  Waist: 4
+  Hip: 5
+  Height: 1
+  Weight: 2
   HP_Max: 9
   HP: 9
   Atc: 2
@@ -26,5 +28,3 @@ MonoBehaviour:
   Defense: 2
   M_Defense: 1
   Speed: 2
-  Skill: 
-  Spell: 
