@@ -1,12 +1,10 @@
 using UnityEngine;
-using UnityEngine.UI;
 
-[CreateAssetMenu]
-public class Character_Data : ScriptableObject
+[System.Serializable]
+
+public class CharaData_Entity
 {
-    [SerializeField]
-
-    public Sprite Icon, Normal;
+    //public Sprite Icon, Normal;
 
     public string Name;
 
@@ -17,7 +15,4 @@ public class Character_Data : ScriptableObject
         Height, Weight,
 
         HP_Max, HP, Atc, M_Atc, Defense, M_Defense, Speed;
-
-    //public string Skill, Spell;
-
 }

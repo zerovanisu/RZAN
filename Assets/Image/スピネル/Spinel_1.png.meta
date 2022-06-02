@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spinel_Icon
+      name: 00
       rect:
         serializedVersion: 2
         x: 283
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spinel_0
+      name: 01
       rect:
         serializedVersion: 2
         x: 0
@@ -168,8 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Spinel_0: 1606336271
-      Spinel_Icon: 1478976160
+      00: 1478976160
+      01: 1606336271
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
