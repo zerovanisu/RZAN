@@ -11,6 +11,6 @@ public class Detail_Open : MonoBehaviour
     public void Open()
     {
         P_Manager = GameObject.Find("Preview_Manager");
-        P_Manager.GetComponent<Chara_Preview>().Detail_Update(ID);
+        //P_Manager.GetComponent<Chara_Preview>().Detail_Update(ID);
     }
 }

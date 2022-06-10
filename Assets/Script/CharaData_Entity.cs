@@ -1,10 +1,9 @@
 using UnityEngine;
 
 [System.Serializable]
-
-public class CharaData_Entity
+public class CharaData_Entity : ScriptableObject
 {
-    //public Sprite Icon, Normal;
+    public CharaData_Entity[] Datas;
 
     public string Name;
 

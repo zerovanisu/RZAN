@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
-
+/*
 public class Chara_Preview : MonoBehaviour
 {
     public enum CHARATYPE
@@ -17,7 +17,7 @@ public class Chara_Preview : MonoBehaviour
 
     [SerializeField]
     Image Tachie;
-    ExcelData Data;
+    CharaData Data;
     
     [SerializeField]
     int Chara_ID;
@@ -38,7 +38,7 @@ public class Chara_Preview : MonoBehaviour
     public void Detail_Update(int id)
     {
         Chara_ID = id;
-        Data = AssetDatabase.LoadAssetAtPath<ExcelData>(DataPath);
+        Data = AssetDatabase.LoadAssetAtPath<CharaData>(DataPath);
         //Tachie = LoadImageData((CHARATYPE)Enum.ToObject(typeof(CHARATYPE), Chara_ID));
         Text_Update();
 
@@ -72,4 +72,4 @@ public class Chara_Preview : MonoBehaviour
         Detail_Canvas.SetActive(false);
         List_Canvas.SetActive(true);
     }
-}
+}*/
