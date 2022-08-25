@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TitleManager : MonoBehaviour
+public class Reload : MonoBehaviour
 {
-
+    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-
+    // Update is called once per frame
     void Update()
     {
         
@@ -19,6 +19,6 @@ public class TitleManager : MonoBehaviour
 
     public void SceneChange()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("TitleScene");
     }
 }
